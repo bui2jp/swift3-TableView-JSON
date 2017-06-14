@@ -1,0 +1,119 @@
+コンパニオンプランツ
+In order to use an icon you must attribute it to its author, so we will be able to continue creating new graphic resources every day.
+
+
+Icon made by [author link] from www.flaticon.com 
+E.g.: Icons made by Freepik from www.flaticon.com 
+
+
+
+    let compplantslist = [
+        /****************************
+         id:  連番（detailのidに対応）
+         name:野菜の名前
+         url: イメージファイルの名前
+         srchtext:検索用の文字列
+         ****************************/
+        (id: "001", name: "とまと", url: "tomato", srchtext: "赤　とまと　トマト"),
+        (id: "002", name: "なす", url: "eggplant", srchtext: "紫　なす　ナス　茄子"),
+        (id: "003", name: "きゃべつ", url: "cabbage", srchtext: "緑　きゃべつ　キャベツ"),
+        (id: "004", name: "きゅうり", url: "cucumber", srchtext: "緑　きゅうり　キュウリ　胡瓜"),
+        (id: "005", name: "さつまいも",   url: "sweet_potato", srchtext: "紫　さつまいも　サツマイモ　薩摩芋"),
+        (id: "006", name: "にんじん", url: "carrot", srchtext: "オレンジ　にんじん　ニンジン　人参"),
+        (id: "007", name: "だいこん", url: "jp_radish", srchtext: "白　だいこん　ダイコン　大根"),
+        (id: "008", name: "かぶ", url: "radish", srchtext: "白　かぶ　カブ　蕪"),
+        (id: "009", name: "ししとう", url: "sweet_green_papper", srchtext: "緑　ししとう　シシトウ　獅子唐"),
+        (id: "010", name: "ちんげんさい", url: "spinach", srchtext: "緑　ちんげんさい　チンゲンサイ　青梗菜"),
+        (id: "011", name: "シソ（大葉）", url: "perilla", srchtext: "緑　おおば　オオバ　大葉　しそ　シソ"),
+        (id: "012", name: "ねぎ", url: "green_onion", srchtext: "緑　ねぎ　ネギ　葱"),
+        (id: "013", name: "薬味ねぎ", url: "green_onion", srchtext: "緑　やくみねぎ　ヤクミネギ　薬味葱"),
+        (id: "014", name: "しょうが", url: "ginger", srchtext: "黄　しょうが　ショウガ　生姜"),
+        (id: "015", name: "ブロッコリー", url: "broccoli", srchtext: "緑　ブロッコリー　ぶろっこりー"),
+        (id: "016", name: "ゴーヤ", url: "bitter_gourd", srchtext: "緑　ごーや　ゴーヤ"),
+        (id: "017", name: "かぼちゃ", url: "pumpkin", srchtext: "緑　オレンジ　かぼちゃ　カボチャ　南瓜"),
+        (id: "018", name: "ズッキーニ", url: "zucchini", srchtext: "緑　ズッキーニ　ずっきーに"),
+        (id: "019", name: "スイカ", url: "watermelon", srchtext: "緑　赤　すいか　スイカ　西瓜"),
+        (id: "020", name: "メロン", url: "melon", srchtext: "緑　メロン　めろん"),
+        (id: "021", name: "ピーマン", url: "green_pepper", srchtext: "緑　ピーマン　ぴーまん"),
+        (id: "022", name: "ジャガイモ", url: "potato", srchtext: "黄　じゃがいも　ジャガイモ　じゃが芋"),
+        (id: "023", name: "ニラ", url: "leek", srchtext: "緑　にら　ニラ　韮"),
+        (id: "024", name: "ニンニク", url: "garlic", srchtext: "黄　ニンニク　にんにく　大蒜"),
+        (id: "025", name: "玉ねぎ", url: "onion", srchtext: "黄　たまねぎ　玉ねぎ　玉葱　タマネギ"),
+        (id: "026", name: "枝豆", url: "green_soybean", srchtext: "緑　えだまめ　エダマメ　枝豆　豆"),
+        (id: "027", name: "えんどう豆", url: "pea", srchtext: "緑　えんどう　エンドウ　豆"),
+        (id: "028", name: "そら豆", url: "broad_bean", srchtext: "緑　そらまめ　そら　空　豆"),
+        (id: "029", name: "落花生", url: "peanut", srchtext: "茶　らっかせい　ラッカセイ　落花生　豆"),
+        (id: "030", name: "レタス", url: "lettuce", srchtext: "緑　れたす　レタス"),
+        (id: "031", name: "セロリ", url: "celery", srchtext: "緑　せろり　セロリ"),
+        (id: "032", name: "とうもろこし", url: "corn", srchtext: "黄　緑　とうもろこし　トウモロコシ　玉蜀黍"),
+        (id: "033", name: "ほうれん草", url: "spinach", srchtext: "緑　ほうれん草　ホウレンソウ"),
+        (id: "034", name: "アスパラガス", url: "asparagus", srchtext: "緑　アスパラガス　あすぱらがす"),
+        (id: "035", name: "イチゴ", url: "strawberry", srchtext: "赤　イチゴ　いちご"),
+        (id: "036", name: "とうがらし", url: "chili", srchtext: "赤　とうがらし　トウガラシ　唐辛子")
+    ]
+        
+    let compplantslist = [
+        /*
+        id:  詳細表示対象の親id
+        name:野菜の名前
+        url: イメージファイルの名前
+        stat_image: good or bad ファイル名
+        desc:説明文　（改行は\n）
+        */
+        //とまと
+        (id: "001", name: "バジル", url: "xxxx", stat_image: "good", desc: "味を良くする！\n"),
+        (id: "001", name: "マリーゴールド", url: "xxxx", stat_image: "good", desc: "センチュウ対策\n"),
+        (id: "001", name: "ねぎ", url: "xxxx", stat_image: "good", desc: "萎凋病（いちょうびょう）対策\n"),
+        
+        //(id: "002", name: "なす", url: "xxxx", srchtext: "紫　なす　ナス　茄子"),
+        (id: "002", name: "バジル", url: "xxxx", stat_image: "good", desc: "発育促進！味を良くする！\n"),
+        (id: "002", name: "ねぎ", url: "xxxx", stat_image: "good", desc: "アブラムシ対策\nつる割病や青枯病対策\nニラやニンニクも同様の効果あり！"),
+        
+
+
+        
+        //(id: "003", name: "きゃべつ", url: "vegitable01-1", srchtext: "緑　きゃべつ　キャベツ"),
+        //(id: "004", name: "きゅうり", url: "vegitable01-4", srchtext: "緑　きゅうり　キュウリ　胡瓜"),
+        //(id: "005", name: "さつまいも",   url: "vegitable01-5", srchtext: "紫　さつまいも　サツマイモ　薩摩芋"),
+        //(id: "006", name: "にんじん", url: "vegitable01-6", srchtext: "オレンジ　にんじん　ニンジン　人参"),
+        //(id: "007", name: "だいこん", url: "vegitable01-7", srchtext: "白　だいこん　ダイコン　大根"),
+        //(id: "008", name: "かぶ", url: "vegitable01-8", srchtext: "白　かぶ　カブ　蕪"),
+        //(id: "009", name: "赤カブ", url: "vegitable01-9", srchtext: "赤　あかかぶ　アカカブ　赤蕪"),
+        //(id: "010", name: "ちんげんさい", url: "", srchtext: "緑　ちんげんさい　チンゲンサイ　青梗菜"),
+        //(id: "011", name: "シソ（大葉）", url: "vegitable01-11", srchtext: "緑　おおば　オオバ　大葉　しそ　シソ"),
+        //(id: "012", name: "ねぎ", url: "vegitable01-12", srchtext: "緑　ねぎ　ネギ　葱"),
+        //(id: "013", name: "薬味ねぎ", url: "vegitable01-13", srchtext: "緑　やくみねぎ　ヤクミネギ　薬味葱"),
+        //(id: "014", name: "しょうが", url: "vegitable01-14", srchtext: "黄　しょうが　ショウガ　生姜"),
+        //(id: "015", name: "みょうが", url: "vegitable01-15", srchtext: "紫　みょうが　ミョウガ　茗荷")
+        //(id: "016", name: "ブロッコリー", url: "", srchtext: "緑　ブロッコリー　ぶろっこりー")
+        //(id: "017", name: "ゴーヤ", url: "", srchtext: "緑　ごーや　ゴーヤ")
+        //(id: "018", name: "かぼちゃ", url: "", srchtext: "緑　オレンジ　かぼちゃ　カボチャ　南瓜")
+        //(id: "019", name: "ズッキーニ", url: "", srchtext: "緑　ズッキーニ　ずっきーに")
+        //(id: "020", name: "スイカ", url: "", srchtext: "緑　赤　すいか　スイカ　西瓜")
+        //(id: "021", name: "メロン", url: "", srchtext: "緑　メロン　めろん")
+        //(id: "022", name: "ピーマン", url: "", srchtext: "緑　ピーマン　ぴーまん")
+        //(id: "023", name: "ジャガイモ", url: "", srchtext: "黄　じゃがいも　ジャガイモ　じゃが芋")
+        //(id: "024", name: "ニラ", url: "", srchtext: "緑　にら　ニラ　韮")
+        //(id: "025", name: "ニンニク", url: "", srchtext: "黄　ニンニク　にんにく　大蒜")
+        //(id: "026", name: "玉ねぎ", url: "", srchtext: "黄　たまねぎ　玉ねぎ　玉葱　タマネギ")
+        //(id: "027", name: "インゲン", url: "", srchtext: "緑　インゲン　いんげん　豆")
+        //(id: "028", name: "枝豆", url: "", srchtext: "緑　えだまめ　エダマメ　枝豆　豆")
+        //(id: "029", name: "えんどう豆", url: "", srchtext: "緑　えんどう　エンドウ　豆")
+        //(id: "030", name: "そら豆", url: "", srchtext: "緑　そらまめ　そら　空　豆")
+        //(id: "031", name: "落花生", url: "", srchtext: "茶　らっかせい　ラッカセイ　落花生　豆")
+        //(id: "032", name: "レタス", url: "", srchtext: "緑　れたす　レタス")
+        //(id: "033", name: "春菊", url: "", srchtext: "緑　しゅんぎく　春　菊")
+        //(id: "034", name: "ごぼう", url: "", srchtext: "茶　ごぼう　ゴボウ　牛蒡")
+        //(id: "035", name: "セロリ", url: "", srchtext: "緑　せろり　セロリ")
+        //(id: "036", name: "とうもろこし", url: "", srchtext: "黄　緑　とうもろこし　トウモロコシ　玉蜀黍")
+        //(id: "037", name: "ほうれん草", url: "", srchtext: "緑　ほうれん草　ホウレンソウ")
+        //(id: "038", name: "アスパラガス", url: "", srchtext: "緑　アスパラガス　あすぱらがす")
+        //(id: "039", name: "イチゴ", url: "", srchtext: "赤　イチゴ　いちご")
+        //(id: "040", name: "とうがらし", url: "", srchtext: "赤　とうがらし　トウガラシ　唐辛子")
+        //(id: "041", name: "ししとう", url: "", srchtext: "緑　ししとう　シシトウ　獅子唐")
+        
+        
+        
+
+    ]
+     

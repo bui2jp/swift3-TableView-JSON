@@ -1,0 +1,70 @@
+Basil　バジル
+Beans　豆(枝豆)
+Broccoli ブロッコリー
+Carrots　にんじん
+Cauliflower　カリフラワー
+Chives　薬味ねぎ
+Cilantro　コリアンダー
+Corn　トウモロコシ
+Cucumber　きゅうり
+Dill　ディル
+
+Garlic　にんにく
+Leeks　ねぎ
+Lettuce　レタス
+Marigold　マリーゴールド
+Melon　メロン
+Nasturtium　ナスタチウム
+Onion　玉ねぎ
+Oregano　オレガノ
+Parsley　パセリ
+Peas　えんどう豆
+
+Peppers　唐辛子
+Rosemary　ローズマリー
+Sage　セージ
+Spinach　ほうれん草
+Squash　かぼちゃ
+Strawberry　イチゴ
+Sunflower　ひまわり
+Swiss Chard　ふだんそう（不断草）
+Thyme　タイム
+Tomatos　とまと
+
+
+        (id: "017", name: "バジル", url: "herb", srchtext: "緑　ばじる　バジル", sortkey: "ばじる"),
+        (id: "010", name: "枝豆", url: "green_soybean", srchtext: "緑　えだまめ　エダマメ　枝豆　豆", sortkey: "えだまめ"),
+        (id: "007", name: "ブロッコリー", url: "broccoli", srchtext: "緑　ブロッコリー　ぶろっこりー", sortkey: "ぶろっこりー"),        
+        (id: "004", name: "にんじん", url: "carrot", srchtext: "オレンジ　にんじん　ニンジン　人参", sortkey: "にんじん"),
+        (id: "027", name: "カリフラワー", url: "cauliflower", srchtext: "白　カリフラワー　かりふらわー", sortkey: "かりふらわー"),
+        (id: "006", name: "薬味ねぎ", url: "chives", srchtext: "緑　やくみねぎ　ヤクミネギ　薬味葱", sortkey: "やくみねぎ"),
+         (id: "024", name: "コリアンダー", url: "herb", srchtext: "コリアンダー　こりあんだー", sortkey: "こりあんだー"),
+        (id: "002", name: "トウモロコシ", url: "corn", srchtext: "とうもろこし　トウモロコシ　玉蜀黍", sortkey: "とうもろこし"),
+       (id: "003", name: "きゅうり", url: "cucumber", srchtext: "緑　きゅうり　キュウリ　胡瓜", sortkey: "きゅうり"),
+        (id: "025", name: "ディル", url: "herb", srchtext: "でぃる　ディル", sortkey: "でぃる"),
+        (id: "008", name: "ニンニク", url: "garlic", srchtext: "黄　ニンニク　にんにく　大蒜", sortkey: "にんにく"),
+         (id: "005", name: "ねぎ", url: "green_onion", srchtext: "緑　ねぎ　ネギ　葱", sortkey: "ねぎ"),
+        (id: "012", name: "レタス", url: "lettuce", srchtext: "緑　れたす　レタス", sortkey: "れたす"),         
+        (id: "023", name: "マリーゴールド", url: "flower", srchtext: "まりーごーるど　マリーゴールド", sortkey: "まりーごーるど"),
+        (id: "029", name: "メロン", url: "melon", srchtext: "めろん　メロン", sortkey: "めろん"),        
+        (id: "022", name: "ナスタチウム", url: "flower", srchtext: "ナスタチウム　なすたちうむ", sortkey: "なすたちうむ"),        
+        (id: "009", name: "玉ねぎ", url: "onion", srchtext: "黄　たまねぎ　玉ねぎ　玉葱　タマネギ", sortkey: "たまねぎ"),        
+        (id: "026", name: "オレガノ", url: "herb", srchtext: "おれがの　オレガノ", sortkey: "おれがの"),
+        (id: "030", name: "パセリ", url: "herb", srchtext: "ぱせり　パセリ", sortkey: "ぱせり"),
+        (id: "011", name: "えんどう豆", url: "pea", srchtext: "緑　えんどう　エンドウ　豆", sortkey: "えんどうまめ"),
+        (id: "013", name: "唐辛子", url: "chili", srchtext: "赤　とうがらし　トウガラシ　唐辛子", sortkey: "とうがらし"),
+        (id: "018", name: "ローズマリー", url: "flower", srchtext: "ローズマリー　ろーずまりー", sortkey: "ろーずまりー"),        
+        (id: "019", name: "セージ", url: "herb", srchtext: "緑　せーじ　セージ", sortkey: "せーじ"), 
+        (id: "014", name: "ほうれん草", url: "spinach", srchtext: "緑　ほうれん草　ホウレンソウ", sortkey: "ほうれんそう"),
+        (id: "028", name: "かぼちゃ", url: "pumpkin", srchtext: "緑　黄　かぼちゃ　カボチャ　南瓜", sortkey: "かぼちゃ"),        
+        (id: "015", name: "イチゴ", url: "strawberry", srchtext: "赤　イチゴ　いちご", sortkey: "いちご"),
+        (id: "016", name: "ひまわり", url: "sunflower", srchtext: "黄　ひまわり　ヒマワリ", sortkey: "ひまわり"),
+        (id: "020", name: "不断草", url: "spinach", srchtext: "緑　ふだんそう　フダンソウ　不断草", sortkey: "ふだんそう"), 
+        (id: "021", name: "タイム", url: "herb", srchtext: "緑　たいむ　タイム", sortkey: "たいむ"),
+        (id: "001", name: "とまと", url: "tomato", srchtext: "赤　とまと　トマト", sortkey: "とまと"),
+
+A. Pants grow well together 両方ともよく育つ
+B. Don’t plant together!  一緒に植えてはダメ！
+C. Beneficial to garden in general　
+D. Combination helps bug control　害虫対策効果！
+
